@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Schulte table</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/eye.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1>Schulte Table</h1>
+  </header>
+  <section class="container mode-section">
+    <p>Choose your mode</p>
+    <div class="row-container">
+      <a href="table.html" id="3" class="item-button" onclick="getNum(this)">3x3</a>
+      <a href="table.html" id="4" class="item-button" onclick="getNum(this)">4x4</a>
+      <a href="table.html" id="5" class="item-button" onclick="getNum(this)">5x5</a>
+    </div>
+    <div class="row-container">
+      <a href="table.html" id="6" class="item-button" onclick="getNum(this)">6x6</a>
+      <a href="table.html" id="7" class="item-button" onclick="getNum(this)">7x7</a>
+      <a href="table.html" id="8" class="item-button" onclick="getNum(this)">8x8</a>
+    </div>
+    <div class="row-container">
+      <a href="table.html" id="9" class="item-button" onclick="getNum(this)">9x9</a>
+      <a href="table.html" id="10" class="item-button" onclick="getNum(this)">10x10</a>
+      <a href="table.html" id="11" class="item-button" onclick="getNum(this)">11x11</a>
+    </div>
+  </section>
+  <section class="container" id="all-achievements">
+    <h2>Achievements</h2>
+  </section>
+  <div class="container">
+    <p id="delete-data">Delete all data</p>
+  </div>
+  <footer class="container">
+    <p>A Schulte table is a grid with randomly distributed numbers or letters used for development of speed reading, peripheral vision, attention and visual perception.</p>
+    <p id="copyright">Copyright © Volodymyr Shumsky. All rights reserved</p>
+  </footer>
+  <div id="language">
+    <a id="eng">Eng</a>/<a id="rus">Rus</a>
+  </div>
+  <script async src="start.js"></script>
+</body>
+</html>
